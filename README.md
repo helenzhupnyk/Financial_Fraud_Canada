@@ -50,19 +50,37 @@ This project helped me apply real data science skills — from data cleaning to 
 
 ---
 
-## Visualizations & Screenshots
+##  Data Cleaning
 
-Be sure to check out the included graphs and plots:
+- Remove Duplicate Columns (Keep English only)
+- Rename columns for clarity,
+- Removing extra characters and whitespace,
+- Converting Dollar_Loss to numeric,
+- Converting Date_Received to the correct format
+- Standardizing age ranges and other categorical values,
+- Handling missing or unspecified entries properly.
+---
+
+## EDA - Visualizations & Screenshots
+
+- Grouped fraud cases by province, fraud type, and year to identify patterns.
+- Analyzed losses across different fraud categories.
+- Assessed regional fraud distribution to detect provincial hotspots.
+- Investigated trends in fraud methods (online vs. phone vs. email) and reporting behaviors.
+
+Visualizations:
 - Trends in fraud volume and losses over time ![image](https://github.com/user-attachments/assets/9ebd29a6-61fc-45c5-a095-449b01d24eb5)
 - Top fraud types by cost and frequency ![image](https://github.com/user-attachments/assets/693789a6-09a5-4538-b74e-dc9e00eb4181)
 - Regional breakdowns (heatmaps, bar charts) ![image](https://github.com/user-attachments/assets/595d8159-98cf-4d19-acfd-be4ec87001dc) ,
--  ![image](https://github.com/user-attachments/assets/9557f0e1-a7cc-40f4-bec2-244fb9b2980b)
-
+-  Choropleth Map	![image](https://github.com/user-attachments/assets/9557f0e1-a7cc-40f4-bec2-244fb9b2980b),
 - Common Fraud Patterns ![image](https://github.com/user-attachments/assets/d3673140-7a12-4c4b-a912-61f6360d5789)
-
-
 - Confusion matrix from machine learning evaluation ![image](https://github.com/user-attachments/assets/1c59a352-8337-46da-9ee0-15b91d35bbe1)
 
-
 ---
+
+## Key Insights
+- Ontario, Quebec, and British Columbia have the highest number of fraud reports.
+- Financial loss is significantly higher in investment, followed by Spear Phishing, Timeshare, and Romance Scams.
+- Online platforms are the most common medium for fraud, followed by phone calls.
+- Reporting trends show a steady increase in fraud cases over the years.
 
