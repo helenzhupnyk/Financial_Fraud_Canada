@@ -70,10 +70,15 @@ This project helped me apply real data science skills — from data cleaning to 
 
 Visualizations:
 - Trends in fraud volume and losses over time ![image](https://github.com/user-attachments/assets/9ebd29a6-61fc-45c5-a095-449b01d24eb5)
+- ----------------------------------------------------------------
 - Top fraud types by cost and frequency ![image](https://github.com/user-attachments/assets/693789a6-09a5-4538-b74e-dc9e00eb4181)
-- Regional breakdowns (heatmaps, bar charts) ![image](https://github.com/user-attachments/assets/595d8159-98cf-4d19-acfd-be4ec87001dc) ,
--  Choropleth Map	![image](https://github.com/user-attachments/assets/9557f0e1-a7cc-40f4-bec2-244fb9b2980b),
+- -----------------------------------------------------------------
+- Regional breakdowns (heatmaps, bar charts) 	![image](https://github.com/user-attachments/assets/9557f0e1-a7cc-40f4-bec2-244fb9b2980b)
+- -----------------------------------------------------------------
+-  Choropleth Map  ![image](https://github.com/user-attachments/assets/595d8159-98cf-4d19-acfd-be4ec87001dc)
+-  -----------------------------------------------------------------
 - Common Fraud Patterns ![image](https://github.com/user-attachments/assets/d3673140-7a12-4c4b-a912-61f6360d5789)
+- -----------------------------------------------------------------
 - Confusion matrix from machine learning evaluation ![image](https://github.com/user-attachments/assets/1c59a352-8337-46da-9ee0-15b91d35bbe1)
 
 ---
