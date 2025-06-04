@@ -1,3 +1,5 @@
+# Financial Fraud in Canada: Insights and Prevention Strategies (2021–2025)
+
 # ![Financial Fraud in Canada: Insights and Prevention Strategies (2021–2025)](images/fraud_canada.png)
 ## Project Overview
 
