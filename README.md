@@ -82,7 +82,7 @@ Visualizations:
 -  -----------------------------------------------------------------
 - Common Fraud Patterns ![image](https://github.com/user-attachments/assets/d3673140-7a12-4c4b-a912-61f6360d5789)
 - -----------------------------------------------------------------
-- Confusion matrix from machine learning evaluation ![image](https://github.com/user-attachments/assets/1c59a352-8337-46da-9ee0-15b91d35bbe1)
+- Confusion matrix from machine learning evaluation ![image](https://github.com/user-attachments/assets/575654e8-0f48-4d90-a596-b3f1b0a6ef68)
 
 ---
 
