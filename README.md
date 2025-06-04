@@ -83,9 +83,69 @@ Visualizations:
 
 ---
 
-## Key Insights
-- Ontario, Quebec, and British Columbia have the highest number of fraud reports.
-- Financial loss is significantly higher in investment, followed by Spear Phishing, Timeshare, and Romance Scams.
-- Online platforms are the most common medium for fraud, followed by phone calls.
-- Reporting trends show a steady increase in fraud cases over the years.
+##  Key Insights  
 
+###  Regional Trends  
+- **Ontario, Quebec, and British Columbia** had the highest fraud cases  
+- Some provinces showed disproportionate loss-to-case ratios  
+
+###  Fraud Types & Financial Impact  
+- **Investment scams** caused the highest financial losses  
+- Followed by **Spear Phishing**, **Timeshare**, and **Romance scams**
+
+###  Demographics  
+- Most targeted age group: **30–69**, especially **30–39**  
+- Gender split was almost equal; slightly more female victims  
+
+###  Reporting Methods  
+- Online methods dominated, followed by phone and email fraud  
+
+---
+
+##  Predictive Modeling
+
+### Goal  
+To predict whether a reported fraud case resulted in a **victim losing money** (binary classification).
+
+### Models Used  
+- **Logistic Regression**  
+- **Decision Tree Classifier**  
+- **Random Forest Classifier**
+
+### Performance Summary  
+| Model              | Accuracy | F1-Score (Fraud Class) |
+|-------------------|----------|-------------------------|
+| Logistic Regression | 88%     | 0.78                   |
+| Decision Tree      | 88%     | 0.83                   |
+| Random Forest      | 88%     | **0.87**               |
+
+- All models reached ~88% accuracy, but **Random Forest** had the best F1-score and recall for identifying actual fraud victims.  
+- **Recommended model:** `Random Forest` – it balances precision and recall well for the minority fraud class.
+
+> Fraud detection is inherently imbalanced. Improving recall, even slightly, can prevent real financial loss in real-world use cases.
+
+---
+
+## Conclusion & Recommendations  
+
+This project demonstrated the power of data science in uncovering patterns in Canadian financial fraud. From regional trends to demographic risk factors, and predictive models with solid performance — the findings can help:
+
+- **Public Awareness Campaigns** – Focus on high-risk age groups and regions  
+- **Policy & Enforcement** – Allocate resources to regions/types with highest impact  
+- **Education Initiatives** – Inform older adults and small business owners on common scam types  
+- **Modeling Extensions** – Future work could include time-series forecasting or unsupervised pattern detection  
+
+---
+
+## Project Files  
+- `/data`: Raw and processed datasets  
+- `/notebooks`: EDA and modeling notebooks  
+- `/images`: Visualizations  
+- `/reports`: Final insights and presentation slides  
+
+---
+
+##  Acknowledgements  
+Data Source: [Canadian Anti-Fraud Centre (Open Data)](https://open.canada.ca/data/en/dataset)
+
+---
