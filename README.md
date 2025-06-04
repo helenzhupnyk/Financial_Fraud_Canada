@@ -1,6 +1,29 @@
 # Financial Fraud in Canada: Insights and Prevention Strategies (2021–2025)
 
 # ![Financial Fraud in Canada: Insights and Prevention Strategies (2021–2025)](images/fraud_canada.png)
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Dataset Summary](#dataset-summary)
+- [Tools & Technologies](#tools--technologies)
+- [Data Cleaning Tasks](#data-cleaning-tasks)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Key Insights](#key-insights)
+  - [Regional Trends](#regional-trends)
+  - [Fraud Types](#fraud-types)
+  - [Demographics](#demographics)
+  - [Fraud Methods](#fraud-methods)
+- [Predictive Modeling](#predictive-modeling)
+  - [Models Used](#models-used)
+  - [Model Performance Summary](#model-performance-summary)
+  - [Model Selection Scenarios](#model-selection-scenarios)
+- [Recommendations](#recommendations)
+- [Future Work](#future-work)
+- [Repository Structure](#repository-structure)
+- [Acknowledgements](#acknowledgements)
+
 ## Project Overview
 
 This project analyzes real-world financial fraud reports collected by the Canadian Anti-Fraud Centre (CAFC) from January 2021 to March 2025. 
