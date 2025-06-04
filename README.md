@@ -1,5 +1,5 @@
 # Financial Fraud in Canada: Insights and Prevention Strategies (2021–2025)
-
+(images/fraud_canada.png)
 ## Project Overview
 
 This project analyzes real-world financial fraud reports collected by the Canadian Anti-Fraud Centre (CAFC) from January 2021 to March 2025. 
